@@ -118,8 +118,8 @@ span{
     border-radius: 0.5rem;
     font-size: 17px;
     font-weight: 500;
-    background:var(--main-color);
-    color: orange;
+    background:orange;
+    color: var(--text-color);
     border: 1px solid var(--main-color);
     transition: all .40s ease;
 }
