@@ -119,7 +119,7 @@ span{
     font-size: 17px;
     font-weight: 500;
     background:var(--main-color);
-    color: var(--text-color);
+    color: orange;
     border: 1px solid var(--main-color);
     transition: all .40s ease;
 }
