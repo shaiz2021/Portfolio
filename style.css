@@ -240,6 +240,7 @@ font-weight: 600;
     align-items: center;
     gap: 2rem;
     margin-top: 5rem;
+    text-decoration:none;
 }
 
 .row img{
