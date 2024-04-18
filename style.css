@@ -244,16 +244,16 @@ header.sticky {
 }
 
 .row img {
-    height: 200px;
+    height: 250px;
     width: 100%;
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     margin-bottom: 1.5rem;
 }
 
 .row {
     padding: 25px;
     background: #12141c;
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     transition: all .40s ease;
 }
 
