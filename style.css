@@ -95,6 +95,7 @@ section {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -113,7 +114,7 @@ span {
     font-size: 35px;
 }
 
-.name{
+.name {
     font-weight: bolder;
 }
 
@@ -252,23 +253,23 @@ header.sticky {
 }
 
 .portfolio-content {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    align-items: center;
-    gap: 2rem;
     margin-top: 5rem;
+    margin-left: 15rem;
     text-decoration: none;
 }
 
 .row img {
-    height: 270px;
+    height: 330px;
     width: 100%;
     border-radius: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
 .row {
+    width: 600px;
     padding: 25px;
+    margin: 45px;
     background: #12141c;
     border-radius: 1.5rem;
     transition: all .40s ease;
