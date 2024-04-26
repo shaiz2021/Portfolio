@@ -255,7 +255,7 @@ header.sticky {
 .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     margin-top: 5rem;
-    margin-left: 15rem;
+    margin-left: 12rem;
     text-decoration: none;
 }
 
