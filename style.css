@@ -253,23 +253,22 @@ header.sticky {
 }
 
 .portfolio-content {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2rem;
     margin-top: 5rem;
-    margin-left: 12rem;
-    text-decoration: none;
 }
 
 .row img {
-    height: 330px;
     width: 100%;
+    height: 330px;
     border-radius: 1.5rem;
-    margin-bottom: 1.5rem;
 }
 
 .row {
-    width: 600px;
+    width: 340px;
     padding: 25px;
-    margin: 45px;
     background: #12141c;
     border-radius: 1.5rem;
     transition: all .40s ease;
@@ -493,5 +492,13 @@ form textarea {
     :root {
         --h1-font: 3.7rem;
         --h2-font: 2.7rem;
+    }
+
+    .row {
+        width: 390px;
+        padding: 25px;
+        background: #12141c;
+        border-radius: 1.5rem;
+        transition: all .40s ease;
     }
 }
