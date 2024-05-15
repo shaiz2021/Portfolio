@@ -334,15 +334,9 @@ header.sticky {
     display: block;
 }
 
-.contact-list li a {
-    display: block;
-    color: var(--second-color);
-    font-size: var(--p-font);
-    font-weight: 600;
-    transition: all .40s ease;
-}
 
-.contact-list li a:hover {
+
+.contact-list li:hover {
     transform: scale(1.01) translateY(-5px);
     color: var(--main-color);
 }
