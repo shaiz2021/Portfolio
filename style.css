@@ -35,6 +35,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background: transparent;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 22px 16%;
     border-bottom: 1px solid transparent;
     transition: all .40 ease;
@@ -126,6 +127,7 @@ span {
 .home-text h4 {
     color: var(--main-color);
     font-size: 30px;
+    margin-top: 3rem;
     font-weight: 600;
 }
 
@@ -176,6 +178,9 @@ header.sticky {
 
 .about-text h2 {
     font-size: var(--h2-font);
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(97, 95, 95);
 }
 
 .about-gri {
@@ -195,7 +200,8 @@ header.sticky {
     height: auto;
     width: 100%;
     max-width: 700px;
-    border-radius: 50px;
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(106, 105, 105);
 }
 
 .main-text {
@@ -205,12 +211,14 @@ header.sticky {
 .main-text h2 {
     font-size: var(--h2-font);
     margin-bottom: 10px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(75, 75, 75);
 }
 
 .main-text h4 {
     color: var(--main-color);
     font-size: 24px;
     font-weight: 600;
+    margin-top: 3rem;
 }
 
 .services-content {
@@ -228,7 +236,8 @@ header.sticky {
     border: 5px solid transparent;
     transition: all .40s ease;
     cursor: pointer;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px 0 rgb(55, 55, 55), 0 6px 20px 0 rgb(72, 72, 72);
 }
 
 .box img {
@@ -275,6 +284,7 @@ header.sticky {
     width: 340px;
     padding: 25px;
     background: #12141c;
+    box-shadow: 0 10px 10px 0 rgb(55, 55, 55), 0 10px 10px 0 rgb(48, 48, 48);
     border-radius: 1.5rem;
     transition: all .40s ease;
 }
@@ -311,6 +321,7 @@ header.sticky {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    box-shadow: 0 10px 10px 0 rgb(55, 55, 55), 0 6px 20px 0 rgb(72, 72, 72);
     gap: 3rem;
 }
 
