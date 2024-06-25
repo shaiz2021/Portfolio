@@ -67,6 +67,7 @@ header h2 {
 .navbar a:hover {
     background: var(--main-color);
     color: var(--text-color);
+    border-radius: 15px;
 }
 
 #menu-icon {
