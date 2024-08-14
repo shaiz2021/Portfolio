@@ -75,13 +75,14 @@ header h2 {
 }
 
 section {
-    padding: 160px 16% 90px;
+    padding: 140px 16% 90px;
 }
 
 .home {
     height: 100vh;
     width: 100%;
     position: relative;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -278,10 +279,11 @@ header.sticky {
 
 .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(375px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(380px, auto));
     align-items: center;
-    gap: 10px;
-    margin-top: 5rem;}
+    gap: 2rem;
+    margin-top: 5rem;
+}
 
 .row img {
     width: 100%;
@@ -290,7 +292,7 @@ header.sticky {
 }
 
 .row {
-    width: 299px;
+    width: 100%;
     padding: 15px;
     background: #E9F8FF;
     box-shadow: 0 10px 10px 0 rgb(148, 148, 148);
