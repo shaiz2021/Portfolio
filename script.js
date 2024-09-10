@@ -18,13 +18,13 @@ window.onscroll = () => {
 
 const sr = ScrollReveal({
     distance: '25px',
-    duration: 1500,
+    duration: 2500,
     reset: true
 })
 
-sr.reveal('.home-text', { delay: 550, origin: 'bottom' })
+sr.reveal('.home-text', { delay: 550, origin: 'both' })
 
-sr.reveal('.about, .services, .projects', { delay: 100, origin: 'bottom' })
+sr.reveal('.about, .services, .projects', { delay: 100, origin: 'both' })
 
 
 document.addEventListener('scroll', () => {
