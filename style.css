@@ -332,7 +332,7 @@ header.sticky {
 
 .contact {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     align-items: center;
     box-shadow: 0 10px 10px 0 rgb(148, 148, 148);
     gap: 3rem;
@@ -506,5 +506,9 @@ header.sticky {
         background: var(--bg-color);
         border-radius: 1.5rem;
         transition: all .40s ease;
+    }
+
+    .email-contact{
+        font-size: 16px ;
     }
 }
